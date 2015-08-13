@@ -40,7 +40,7 @@
 
 module.exports = glob
 
-var fs = require('fs')
+var fs = require('memory-fs')
 var minimatch = require('minimatch')
 var Minimatch = minimatch.Minimatch
 var inherits = require('inherits')
